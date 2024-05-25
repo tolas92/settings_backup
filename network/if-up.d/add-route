@@ -1,0 +1,5 @@
+#!/bin/sh
+ip route add 224.0.0.0/4 dev enx00e04c534458
+ip route add 224.0.0.0/4 dev wlps10
+ip link set enx00e04c534458 promisc on
+ip link set wlps10 promisc on
